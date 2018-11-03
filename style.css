@@ -109,6 +109,7 @@ template { display: none; }
 @media all and (max-width: 600px) { #ye-gen .container textarea::placeholder { font-size: 11px; } }
 
 #ye-gen .container .dummy { left: 100%; visibility: hidden; }
+#ye-gen .container .stamp-vote { max-width: 450px; position: absolute; top: 364px; left: 101px; }
 
 #ye-gen .buttons { display: flex; align-items: center; justify-content: center; }
 
