@@ -1,0 +1,66 @@
+<html lang="en"><head>
+    <title>I'm Voting generator</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Create your own YE album cover">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1, minimum-scale=1">
+    <meta name="robots" content="index, follow">
+    <!-- favicon stuff-->
+    <link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="fav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="fav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="fav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="fav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="fav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="fav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="fav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="fav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="manifest" href="fav/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="fav/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="ye cover generator">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://yenerator.com/">
+    <meta property="og:image" content="http://yenerator.com/img/social.jpg">
+    <meta property="og:description" content="Create your own YE album cover">
+    <meta property="og:site_name" content="ye cover generator">
+    <!-- Twitter Card Tags : Images must be at least 120x120px-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="ye cover generator">
+    <meta name="twitter:title" content="ye cover generator">
+    <meta name="twitter:description" content="Create your own YE album cover">
+    <meta name="twitter:image" content="http://yenerator.com/img/social.jpg">
+    <!-- Styles-->
+    <link rel="stylesheet" href="style.css"><!-- Global site tag (gtag.js) - Google Analytics -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="ye-gen">
+        <div class="container" id="album-cover"><img id="bg" src="obama.jpg">
+          <div class="area dummy">fgfgfg</div>
+          <textarea class="area" name="message" autofocus="" spellcheck="false" placeholder="write whatever you feel like" ></textarea>
+        </div>
+        <div class="buttons">
+          <div class="save-img">
+            <p>Save Image  </p>
+          </div>
+          <form id="form1" runat="server">
+            <input class="inputfile" type="file" name="file" id="file" accept="image/*">
+            <label for="file">Choose a Background</label>
+          </form>
+        </div>
+  
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="html2canvas.min.js"></script>
+    <script src="FileSaver.min.js"></script>
+    <script src="ye-gen.min.js"></script>
+  
+</body></html>
