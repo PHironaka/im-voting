@@ -123,7 +123,6 @@ template { display: none; }
 
 #ye-gen .buttons form label { width: 100px; margin: 10px; text-align: center; padding: 10px; border-radius: 5px; cursor: pointer; background: #395B85; text-shadow: 1px black; color: #29F74E; font-family: 'JakeHandwriting'; }
 
-#ye-gen .buttons form label:hover { background: #2a4361; }
 
 #ye-gen .powered { color: #000000; position: fixed; bottom: 0; right: 0; text-decoration: none; padding: 5px; display: none; }
 
