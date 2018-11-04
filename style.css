@@ -104,12 +104,32 @@ template { display: none; }
 
 #vote .container textarea::placeholder { color: #29F74E; font-size: 24px; }
 
-@media all and (max-width: 980px) { #vote .container textarea::placeholder { font-size: 19px; } }
+@media all and (max-width: 980px) { 
+	#vote .container textarea::placeholder { font-size: 19px; } 
+	
 
-@media all and (max-width: 600px) { #vote .container textarea::placeholder { font-size: 11px; } }
+}
+
+@media all and (max-width: 600px) { 
+	#vote .container textarea::placeholder { font-size: 11px; } 
+
+}
 
 #vote .container .dummy { left: 100%; visibility: hidden; }
 #vote .container .stamp-vote { max-width: 450px; position: absolute; top: 364px; left: 101px; }
+@media all and (max-width: 800px) { 
+#vote .container .stamp-vote {
+		    top: 244px;
+    left: 26px;
+	}
+}
+
+@media all and (max-width: 600px) { 
+#vote .container .stamp-vote {
+		    top: 144px;
+    left: 0;
+	}
+}
 
 #vote .buttons { display: flex; align-items: center; justify-content: center; }
 
@@ -135,4 +155,8 @@ template { display: none; }
 
 #vote .streaming img { width: 125px; padding: 10px 0; }
 
-@media all and (max-width: 600px) { #vote .streaming img { width: 87px; } }
+@media all and (max-width: 600px) { 
+
+	#vote .streaming img { width: 87px; } 
+
+}
