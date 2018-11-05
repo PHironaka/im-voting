@@ -91,6 +91,13 @@ template { display: none; }
 #vote .america-signoff { margin:3em 0 !important; }
 #vote  h2 { font-size:1.7em; }
 
+footer {
+	width: 100%;
+	
+}
+
+footer p {text-align:center;}
+
 #vote .voting-links {font-weight:bold;     padding: 4px 0;
     line-height: 1;
     border-bottom: 1px solid;}
