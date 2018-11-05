@@ -120,15 +120,17 @@ template { display: none; }
 @media all and (max-width: 800px) { 
 #vote .container .stamp-vote {
 	bottom:10px;
-	
-    left: 26px;
+	 max-width: 300px;
+    left: 110px;
 	}
 }
 
 @media all and (max-width: 600px) { 
 #vote .container .stamp-vote {
 	bottom:10px;
-    left: 0;
+    left: 50px;
+	max-width: 190px;
+
 	}
 }
 
