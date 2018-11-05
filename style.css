@@ -122,7 +122,7 @@ template { display: none; }
 #vote .container .stamp-vote { max-width: 450px; position: absolute; 	 bottom:80px; left: 101px; }
 @media all and (max-width: 800px) { 
 #vote .container .stamp-vote {
-	bottom:50px;
+	bottom:70px;
 	 max-width: 300px;
     left: 110px;
 	}
