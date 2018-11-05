@@ -83,8 +83,8 @@ template { display: none; }
 
 #vote { width: 100%; }
 
- #vote h2, #vote span.intro, #vote textarea, #vote .save-img p, #vote textarea::placeholder, #vote label { font-family: 'Chrxxmarker'; }
-
+ #vote h2, #vote textarea, #vote .save-img p, #vote textarea::placeholder, #vote label { font-family: 'Chrxxmarker'; }
+#vote span.intro { font-weight:bold; }
 #vote a { text-decoration:none; color:black; }
 #vote p { margin: 0; color: #e4e900; }
 #vote .america { margin:5em 0; }
