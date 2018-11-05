@@ -116,17 +116,18 @@ template { display: none; }
 }
 
 #vote .container .dummy { left: 100%; visibility: hidden; }
-#vote .container .stamp-vote { max-width: 450px; position: absolute; top: 364px; left: 101px; }
+#vote .container .stamp-vote { max-width: 450px; position: absolute; 	 bottom:10px; left: 101px; }
 @media all and (max-width: 800px) { 
 #vote .container .stamp-vote {
-		    top: 244px;
+	bottom:10px;
+	
     left: 26px;
 	}
 }
 
 @media all and (max-width: 600px) { 
 #vote .container .stamp-vote {
-		    top: 144px;
+	bottom:10px;
     left: 0;
 	}
 }

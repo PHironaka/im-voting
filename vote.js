@@ -22,14 +22,14 @@
             }, 100)
         }
     }
-    var o = $("#album-cover"),
-        i = $("textarea"),
+    var o = $("#profile"),
+        i = $("stamp-vote"),
         a = $(".dummy");
     i.on("keyup change", function(t) {
         var o = e(i.val());
         a.html(o), n()
     }).trigger("change"), $(window).on("resize", n), $(".save-img").click(function() {
-        window.scrollTo(0, 0), html2canvas(document.querySelector("#album-cover")).then(function(e) {
+        window.scrollTo(0, 0), html2canvas(document.querySelector("#profile")).then(function(e) {
             e.toBlob(function(e) {
                 saveAs(e, "I-AM-VOTING.png")
             })
