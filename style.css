@@ -87,6 +87,9 @@ template { display: none; }
 #vote p { margin: 0; color: #e4e900; }
 
 #vote .container { position: relative; max-width: 640px; margin: 0 auto; overflow: hidden; }
+#vote .container.manifesto  { margin:2em auto; }
+#vote .container.manifesto p { color:black; margin:1em 0; font-size: 1.1em;}
+#vote .container.manifesto ul li a { color:black; line-height: 1.5; text-decoration: none;}
 
 @media all and (max-width: 980px) { #vote .container { width: 500px; max-width: none; } }
 
@@ -134,7 +137,7 @@ template { display: none; }
 	}
 }
 
-#vote .buttons { display: flex; align-items: center; justify-content: center; }
+#vote .buttons { display: flex; align-items: center; justify-content: center; margin:1em 0;}
 
 #vote .buttons .save-img { width: 100px; margin: 10px; text-align: center; padding: 10px; border-radius: 5px; cursor: pointer;  background: black; }
 
