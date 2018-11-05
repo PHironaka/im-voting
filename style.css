@@ -83,7 +83,7 @@ template { display: none; }
 
 #vote { width: 100%; }
 
-#vote p, #vote h2, #vote textarea, #vote textarea::placeholder, #vote a, #vote label { font-family: 'Chrxxmarker'; }
+ #vote h2, #vote textarea, #vote textarea::placeholder, #vote a, #vote label { font-family: 'Chrxxmarker'; }
 
 
 #vote p { margin: 0; color: #e4e900; }
