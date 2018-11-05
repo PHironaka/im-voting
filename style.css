@@ -86,7 +86,7 @@ template { display: none; }
  #vote h2, #vote textarea, #vote .save-img p, #vote textarea::placeholder, #vote label { font-family: 'Chrxxmarker'; }
 #vote span.intro { font-weight:bold; }
 #vote a { text-decoration:none; color:black; }
-#vote p { margin: 0; color: #e4e900; line-height:1.4; }
+#vote p { margin: 0; color: #e4e900;  }
 #vote .america { margin:2em 0 3em !important; }
 #vote  h2 { font-size:1.7em; }
 
@@ -94,7 +94,7 @@ template { display: none; }
 
 #vote .container { position: relative; max-width: 640px; margin: 0 auto; overflow: hidden; }
 #vote .container.manifesto  { margin:2em auto; }
-#vote .container.manifesto p { color:black; margin:1em 0; font-size: 1.1em;}
+#vote .container.manifesto p { color:black; margin:1em 0; font-size: 1.1em; line-height:1.4;}
 #vote .container.manifesto ul li a { color:black; line-height: 1.5; text-decoration: none;}
 
 @media all and (max-width: 980px) { #vote .container { width: 500px; max-width: none; } }
