@@ -83,12 +83,14 @@ template { display: none; }
 
 #vote { width: 100%; }
 
- #vote h2, #vote textarea, #vote .save-img p, #vote textarea::placeholder, #vote label { font-family: 'Chrxxmarker'; }
+ #vote h2, #vote span.intro, #vote textarea, #vote .save-img p, #vote textarea::placeholder, #vote label { font-family: 'Chrxxmarker'; }
 
 #vote a { text-decoration:none; color:black; }
 #vote p { margin: 0; color: #e4e900; }
-
+#vote .america { margin:5em 0; }
 #vote  h2 { font-size:1.7em; }
+
+#vote ul li a {font-weight:bold;}
 
 #vote .container { position: relative; max-width: 640px; margin: 0 auto; overflow: hidden; }
 #vote .container.manifesto  { margin:2em auto; }
