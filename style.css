@@ -90,12 +90,15 @@ template { display: none; }
 #vote .america { margin:2em 0 3em !important; }
 #vote  h2 { font-size:1.7em; }
 
-#vote .voting-links {font-weight:bold;}
+#vote .voting-links {font-weight:bold;     padding: 4px 0;
+    line-height: 1;
+    border-bottom: 1px solid;}
 
 #vote .container { position: relative; max-width: 640px; margin: 0 auto; overflow: hidden; }
 #vote .container.manifesto  { margin:2em auto; }
 #vote .container.manifesto p, #vote .container.manifesto li  { color:black; margin:1em 0; font-size: 1.1em; line-height:1.4;}
-#vote .container.manifesto ul li a { color:black; line-height: 1.5; text-decoration: none;}
+#vote .container.manifesto ul li a { color:black; line-height: 1.5;   padding: 4px 0;
+    border-bottom: 1px solid;}
 
 @media all and (max-width: 980px) { #vote .container { width: 500px; max-width: none; } }
 
