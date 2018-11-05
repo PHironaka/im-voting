@@ -1,5 +1,6 @@
 html { line-height: 1.15; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
-body { margin: 0; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
 article, aside, footer, header, nav, section { display: block; }
 h1 { font-size: 2em; margin: 0.67em 0; }
 figcaption, figure, main { /* 1 */ display: block; }
@@ -82,9 +83,12 @@ template { display: none; }
 
 #vote { width: 100%; }
 
-#vote p, #vote textarea, #vote textarea::placeholder, #vote a, #vote label { font-family: 'Chrxxmarker'; }
+#vote p,, #vote h2, #vote textarea, #vote textarea::placeholder, #vote a, #vote label { font-family: 'Chrxxmarker'; }
+
 
 #vote p { margin: 0; color: #e4e900; }
+
+#vote  h2 { font-size:1.3em; }
 
 #vote .container { position: relative; max-width: 640px; margin: 0 auto; overflow: hidden; }
 #vote .container.manifesto  { margin:2em auto; }
