@@ -96,7 +96,7 @@ footer {
 	
 }
 
-footer p {text-align:center;}
+footer p {text-align:center; color:black; font-size:.7em;}
 
 #vote .voting-links {font-weight:bold;     padding: 4px 0;
     line-height: 1;
