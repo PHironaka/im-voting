@@ -119,10 +119,10 @@ template { display: none; }
 }
 
 #vote .container .dummy { left: 100%; visibility: hidden; }
-#vote .container .stamp-vote { max-width: 450px; position: absolute; 	 bottom:40px; left: 101px; }
+#vote .container .stamp-vote { max-width: 450px; position: absolute; 	 bottom:80px; left: 101px; }
 @media all and (max-width: 800px) { 
 #vote .container .stamp-vote {
-	bottom:40px;
+	bottom:50px;
 	 max-width: 300px;
     left: 110px;
 	}
@@ -130,7 +130,7 @@ template { display: none; }
 
 @media all and (max-width: 600px) { 
 #vote .container .stamp-vote {
-	bottom:40px;
+	bottom:45px;
     left: 50px;
 	max-width: 215px;
 
