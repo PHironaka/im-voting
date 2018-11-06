@@ -156,7 +156,7 @@ footer p {text-align:center; color:black !important; font-size:.7em; margin:10px
 
 #vote .buttons { display: flex; align-items: center; justify-content: center; margin:1em 0;}
 
-#vote .buttons .save-img { width: 100px; margin: 10px; text-align: center; padding: 10px; border-radius: 5px; cursor: pointer;  background: black; }
+#vote .buttons .save-img { width: 100px; margin: 10px; text-align: center; padding: 10px; border-radius: 1px; cursor: pointer;  background: black; }
 
 #vote .buttons .save-img p { text-shadow: 1px black; }
 
